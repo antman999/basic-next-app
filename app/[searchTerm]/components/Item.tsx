@@ -10,7 +10,7 @@ export default function Item({ result }: Props) {
     <div className="flex flex-col justify-center">
       <h2>
         <Link
-          href={`https://en.wikipedia.org/?curid=${result.pageid}`}
+          href={`https://en.wikipedia.org/?curid=${result.pageId}`}
           target="_blank"
           className="text-xl font-bold underline"
         >
